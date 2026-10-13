@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local environments and packages
+.venv/
+venv/
+healthcare_api_packages/
+
+# Local databases and generated data
+*.db
+*.sqlite
+*.sqlite3
+appointments_clean.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Operating system files
+.DS_Store
+Thumbs.db
